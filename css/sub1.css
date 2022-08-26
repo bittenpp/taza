@@ -1,0 +1,363 @@
+@import url("common.css");
+body {
+  background-color: #F5F5F5;
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  background-color: #F5F5F5;
+}
+
+.head {
+  width: 80%;
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.head a {
+  margin-top: 20px;
+}
+.head a img {
+  width: 120px;
+  height: 65px;
+  margin-right: 140px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  width: 58%;
+}
+.list a {
+  margin-top: 37px;
+  color: #337885;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 22px;
+  margin-right: 35px;
+}
+
+.list a:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #337885;
+}
+
+.icon {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 9px;
+  width: 10%;
+}
+.icon a img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.pg1 div img {
+  width: 100%;
+  border-radius: 0 50px 0 0;
+  position: relative;
+  background-color: #F5F5F5;
+}
+.pg1 p {
+  width: 100%;
+}
+.pg1 p img {
+  position: absolute;
+  right: 14%;
+  top: 23% !important;
+}
+.pg1 h2 {
+  color: #ffffff;
+  position: absolute;
+  left: 14%;
+  top: 45% !important;
+  font-size: 55px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.pg2 {
+  z-index: 99;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.pg2 h2 {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #337885;
+  margin: 100px 0 30px 0;
+  line-height: 1.5;
+}
+.pg2 p {
+  margin: 0 auto;
+}
+.pg2 p img {
+  margin: 0 auto;
+  width: 370px;
+  margin-bottom: 10px;
+}
+.pg2 .btn {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+.pg2 .btn .a1 {
+  margin: 0 auto;
+  width: 68%;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+.pg2 .btn .a1 a {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #E8E8E8;
+  border-radius: 35px;
+  padding: 30px 80px;
+  margin: 30px 20px 0 0;
+  color: #000;
+  box-shadow: 5px 5px 15px rgb(136, 136, 136);
+  display: inline-block;
+}
+.pg2 .btn .a1 a:hover {
+  transform: scale(1.05);
+}
+.pg2 .btn .a1 a.active {
+  color: #fff;
+  background-color: #F8991C;
+}
+.pg2 .btn .a2 {
+  padding-bottom: 40px;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+.pg2 .btn .a2 a {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #E8E8E8;
+  border-radius: 35px;
+  padding: 30px 80px;
+  margin: 5px 20px 0 0;
+  color: #000;
+  box-shadow: 5px 5px 15px rgb(136, 136, 136);
+  display: inline-block;
+}
+.pg2 .btn .a2 a:hover {
+  transform: scale(1.05);
+}
+.pg2 .btn .a2 a.active {
+  color: #fff;
+  background-color: #F8991C;
+}
+
+.content_sub {
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+.content_sub .your-class {
+  width: 70%;
+  margin: 0 auto;
+}
+.content_sub .your-class .slick-list {
+  overflow: visible !important;
+}
+.content_sub .your-class .sub_slide .slide-wrap {
+  border: 2px solid #337885;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+.content_sub .your-class .sub_slide .slide-wrap .text {
+  width: 43%;
+  padding-top: 20px;
+}
+.content_sub .your-class .sub_slide .slide-wrap .text h2 {
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.content_sub .your-class .sub_slide .slide-wrap .text p {
+  font-size: 20px;
+  color: #9C9C9C;
+  line-height: 1.6;
+}
+.content_sub .your-class .sub_slide .slide-wrap figure {
+  width: 50%;
+}
+.content_sub .your-class .sub_slide .slide-wrap figure img {
+  border-radius: 40px;
+  width: 100%;
+}
+
+.pg3 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70vh;
+  margin-top: 30px;
+}
+.pg3 div {
+  display: flex;
+  justify-content: space-between;
+  width: 44%;
+  vertical-align: middle;
+}
+.pg3 div h2 {
+  margin: 100px 0 60px 200px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 30px;
+  color: #337885;
+}
+.pg3 div p {
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.pg3 div p img {
+  width: 50%;
+}
+.pg3 .img {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+.pg3 .img li {
+  margin-right: 60px;
+  position: relative;
+}
+.pg3 .img li li.active p {
+  position: absolute;
+  background-color: #000;
+  opacity: 0.6;
+}
+.pg3 .img li p {
+  width: 400px;
+  height: 295px;
+}
+.pg3 .img li p img {
+  width: 100%;
+  border-radius: 40px;
+  margin-right: 60px;
+}
+.pg3 .img li p.active {
+  background-color: #000;
+  opacity: 0.3;
+  z-index: 98;
+  border-radius: 40px;
+  width: 400px;
+  height: 266px;
+}
+.pg3 .img li div {
+  position: absolute;
+  left: 28%;
+  top: 48%;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 530px;
+  background-color: #F5F5F5;
+  line-height: 1.3;
+}
+footer .ft {
+  margin-left: 178px;
+  margin-bottom: 60px;
+  width: 72%;
+}
+footer .ft p img {
+  width: 104px;
+  height: 64px;
+  margin-top: 60px;
+}
+footer .ft ul {
+  margin-left: 120px;
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+}
+footer .ft ul .one {
+  transform: translateX(-120px);
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+}
+footer .ft ul .one p {
+  padding-bottom: 5px;
+}
+footer .ft ul .two {
+  transform: translateX(50px);
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+}
+footer .ft ul .two div {
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+footer .ft ul .two .lis {
+  font-size: 18px;
+}
+footer .ft ul .two .lis p {
+  color: #9C9C9C;
+}
+footer .ft ul .three {
+  transform: translateX(100px);
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+footer .ft ul .four {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  transform: translateX(230px);
+}
+footer .ft ul .four div {
+  padding: 0;
+  margin-bottom: 10px;
+}
+footer .ft ul .four .sns p {
+  display: inline-block;
+}
+footer .ft ul .four .sns p img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+footer .ft ul .five .pics {
+  position: absolute;
+  right: -200px;
+  bottom: -10px;
+}
+footer .ft ul .five .pics p img {
+  width: 177px;
+  height: 49px;
+  margin: 0;
+}
+footer .ft div {
+  margin: 0 auto;
+  padding-top: 35px;
+}
+footer .ft .under {
+  display: inline-block;
+  text-align: left;
+  padding-top: 15px;
+}
+footer .ft .under p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  white-space: pre-line;
+}
+footer .ft .under div {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+  color: #9C9C9C;
+  padding-top: 10px;
+}/*# sourceMappingURL=sub1.css.map */

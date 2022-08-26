@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+*{box-sizing: border-box;
+    padding: 0; margin: 0;}
+    
+    a{text-decoration: none;}
+    ul,li{list-style-type: none;}
+    html,body{margin: 0; padding: 0;}
+    img{vertical-align: top;}
+    body{
+      font-family: "Noto Sans KR", sans-serif;
+    }
+
+/* =====================================header ==================== */
+header {
+  width: 100%;
+  height: 110px;
+  background-color: #F5F5F5;
+}
+header .head {
+  width: 80%;
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+header .head a {
+  margin-top: 20px;
+}
+header .head a img {
+  width: 120px;
+  height: 65px;
+  margin-right: 140px;
+}
+header .list {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  width: 58%;
+}
+header .list a {
+  margin-top: 37px;
+  color: #337885;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 22px;
+  margin-right: 35px;
+}
+header .list a:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #337885;
+}
+header .icon {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 9px;
+  width: 10%;
+}
+header .icon a img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+/* ==========================footer ======================= */
+footer {
+  width: 100%;
+  height: 530px;
+  background-color: #EBEBEB;
+  line-height: 1.3;
+}
+footer .ft {
+  margin-left: 178px;
+  margin-bottom: 60px;
+  width: 72%;
+}
+footer .ft p img {
+  width: 104px;
+  height: 64px;
+  margin-top: 60px;
+}
+footer .ft ul {
+  margin-left: 120px;
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+}
+footer .ft ul .one {
+  transform: translateX(-120px);
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+}
+footer .ft ul .one p {
+  padding-bottom: 5px;
+}
+footer .ft ul .two {
+  transform: translateX(50px);
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+}
+footer .ft ul .two div {
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+footer .ft ul .two .lis {
+  font-size: 18px;
+}
+footer .ft ul .two .lis p {
+  color: #9C9C9C;
+}
+footer .ft ul .three {
+  transform: translateX(100px);
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+}
+footer .ft ul .four {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  transform: translateX(230px);
+}
+footer .ft ul .four div {
+  padding: 0;
+  margin-bottom: 10px;
+}
+footer .ft ul .four .sns p {
+  display: inline-block;
+}
+footer .ft ul .four .sns p img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+footer .ft ul .five .pics {
+  position: absolute;
+  right: -200px;
+  bottom: -10px;
+}
+footer .ft ul .five .pics p img {
+  width: 177px;
+  height: 49px;
+  margin: 0;
+}
+footer .ft div {
+  margin: 0 auto;
+  padding-top: 35px;
+}
+footer .ft .under {
+  display: inline-block;
+  text-align: left;
+  padding-top: 15px;
+}
+footer .ft .under p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  white-space: pre-line;
+}
+footer .ft .under div {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+  color: #9C9C9C;
+  padding-top: 10px;
+}/*# sourceMappingURL=common.css.map */

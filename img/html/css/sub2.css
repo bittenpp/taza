@@ -1,0 +1,384 @@
+@charset "UTF-8";
+@import url("./common.css");
+/* sub2,3   main1 페이지 */
+header {
+  background-color: #ebebeb;
+}
+
+.pg1 div img {
+  width: 100%;
+  border-radius: 0 50px 0 0;
+  position: relative;
+  background-color: #f5f5f5;
+}
+.pg1 p {
+  width: 100%;
+}
+.pg1 p img {
+  position: absolute;
+  right: 14%;
+  top: 34.3%;
+  width: 490px;
+  height: 365px;
+}
+.pg1 h2 {
+  color: white;
+  position: absolute;
+  left: 14%;
+  top: 55%;
+  font-size: 55px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+div .pg2 {
+  z-index: 99;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+div .pg2 h2 {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #337885;
+  padding: 20px 0;
+  line-height: 1.5;
+}
+div .pg2 p {
+  margin: 0 auto;
+}
+div .pg2 p img {
+  margin: 0 auto;
+  width: 370px;
+  margin-bottom: 45px;
+}
+div .pg2 .btn {
+  display: block;
+  text-align: center;
+}
+div .pg2 .btn .a1 {
+  vertical-align: middle;
+  margin-top: 50px;
+}
+div .pg2 .btn .a1 a {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #e8e8e8;
+  border-radius: 35px;
+  padding: 30px 80px;
+  margin: 30px 20px 0 0;
+  color: #000;
+  box-shadow: 5px 5px 15px rgb(136, 136, 136);
+  display: inline-block;
+}
+div .pg2 .btn .a1 a:hover {
+  transform: scale(1.05);
+}
+div .pg2 .btn .a2 {
+  vertical-align: middle;
+  margin-top: 25px;
+}
+div .pg2 .btn .a2 a {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #e8e8e8;
+  border-radius: 35px;
+  padding: 30px 80px;
+  margin: 5px 20px 0 0;
+  color: #000;
+  box-shadow: 5px 5px 15px rgb(136, 136, 136);
+  display: inline-block;
+}
+div .pg2 .btn .a2 a:hover {
+  transform: scale(1.05);
+}
+div .pg2 .btn .a2 a.active {
+  background-color: #f8991c;
+  color: #ffffff;
+}
+
+.sub2 {
+  width: 100%;
+}
+.sub2 .main1 {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.sub2 .main1 div {
+  width: 72%;
+  margin: 0 14%;
+}
+.sub2 .main1 div div {
+  text-align: center;
+}
+.sub2 .main1 div div h4 {
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+}
+
+.sub2 .main1 div .map {
+  width: 1205px;
+  height: 606px;
+  background-image: url(../img/sub2/map_back.png);
+  position: relative;
+  background-repeat: no-repeat;
+}
+.sub2 .main1 div .map .star1 div div[class^=spot] {
+  width: 300px;
+  height: 240px;
+  background-color: white;
+  border-radius: 40px;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  display: none;
+}
+.sub2 .main1 div .map .star1 div div[class^=spot] > P {
+  color: #337885;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 700;
+}
+.sub2 .main1 div .map .star1 div div[class^=spot] > img {
+  border-radius: 15px;
+  width: 237px;
+  height: 112px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sub2 .main1 div .map .star1 div div[class^=spot] .icon {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+}
+.sub2 .main1 div .map .star1 div div[class^=spot] .icon img {
+  width: 15px;
+}
+.sub2 .main1 div .map .star1 div div[class^=spot] .icon p {
+  color: #7c7c7c;
+  font-size: 18px;
+  padding: 10px 8px;
+}
+
+.c1 {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+.c1 > div {
+  transform: translate(70px, 5px);
+}
+
+.c2 {
+  position: absolute;
+  top: 180px;
+  left: -450px;
+}
+.c2 > div {
+  transform: translate(50px, 10px);
+}
+
+.c3 {
+  position: absolute;
+  top: 580px;
+  left: -400px;
+}
+.c3 > div {
+  transform: translate(0px, -310px);
+}
+
+.c4 {
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+}
+.c4 > div {
+  transform: translate(-100px, -200px);
+}
+
+.c5 {
+  position: absolute;
+  bottom: 200px;
+  right: -400px;
+}
+.c5 > div {
+  transform: translate(-100px, -200px);
+}
+
+.c6 {
+  position: absolute;
+  top: 200px;
+  width: 300px;
+  right: -600px;
+}
+.c6 > div {
+  transform: translate(-100px, -200px);
+}
+
+.spot1 {
+  transform: translate(-100px, -100px);
+}
+
+.main2 {
+  width: 100%;
+  background-color: white;
+}
+.main2 .main2_contents {
+  width: 72%;
+  margin: 0 14%;
+  padding: 6% 0;
+}
+.main2 .main2_contents div h3 {
+  font-size: 48px;
+  display: inline-block;
+}
+.main2 .main2_contents div .line {
+  display: inline-block;
+}
+.main2 .main2_contents div p {
+  margin: 10px 0;
+  font-size: 28px;
+  color: #337885;
+}
+
+.main2 .main2_contents div .select {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+  justify-content: space-between;
+}
+.main2 .main2_contents div .select .na {
+  position: relative;
+}
+.main2 .main2_contents div .select .box {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px #f8991c;
+}
+.main2 .main2_contents div .select .box.active {
+  display: flex;
+}
+.main2 .main2_contents div .select .box > button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: #f8991c;
+  font-size: 30px;
+}
+.main2 .main2_contents div .select .box > button:first-of-type {
+  border-radius: 20px 20px 0 0;
+}
+.main2 .main2_contents div .select .box > button:last-of-type {
+  border-radius: 0 0 20px 20px;
+}
+.main2 .main2_contents div .select .box > button:hover {
+  color: white;
+  background-color: rgba(248, 153, 28, 0.6);
+}
+.main2 .main2_contents div .select span {
+  color: #f8991c;
+  font-size: 30px;
+}
+.main2 .main2_contents div .select .title {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: #f8991c;
+  box-sizing: border-box;
+  padding: 15px 150px 15px 120px;
+  border-radius: 40px;
+  position: relative;
+}
+.main2 .main2_contents div .select .title .tri {
+  position: absolute;
+  top: auto;
+  right: 40px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid none;
+  border-top: 20px solid #f8991c;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+.main2 .main2_contents div .select b {
+  margin: 0 40px;
+  font-size: 40px;
+  color: #337885;
+}
+.main2 .main2_contents div .select .select2 {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: #f8991c;
+  font-size: 40px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 15px 150px 15px 120px;
+  position: relative;
+}
+.main2 .main2_contents div .select .select2 span {
+  color: #f8991c;
+}
+.main2 .main2_contents div .select .select2 .tri {
+  position: absolute;
+  top: auto;
+  right: 40px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid none;
+  border-top: 20px solid #f8991c;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+.main2 .main2_contents div .select a {
+  text-decoration: none;
+  color: white;
+  background-color: #337885;
+  border-radius: 40px;
+  padding: 15px 90px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main2 .main2_contents div div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main2 .main2_contents div div ul li {
+  margin: 30px 0;
+}
+.main2 .main2_contents div div ul li img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.main2 .main2_contents div div ul li h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #686868;
+  margin-bottom: 10px;
+}
+.main2 .main2_contents div div ul li p {
+  font-size: 22px;
+  color: #767676;
+  margin: 0;
+  padding: 5px 0;
+}
+.main2 .main2_contents div div ul li b {
+  font-size: 22px;
+  color: #337885;
+}
+.main2 .main2_contents div div ul li div span {
+  color: #767676;
+  font-size: 20px;
+}
+.main2 .main2_contents div div ul li div img {
+  width: 30%;
+  transform: translateY(7.5px);
+  margin-left: 10px;
+}/*# sourceMappingURL=sub2.css.map */

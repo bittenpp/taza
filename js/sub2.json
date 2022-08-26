@@ -1,0 +1,48 @@
+{
+    "contents": [
+        
+        {
+            "region": "용두암",
+            "contents1": "숙박업소",
+            
+            "contents2": "화장실",
+            "contents3": "관광지",
+            "contents4": "편의시설"
+        },
+        {
+            "region": "다락쉼터",
+            "contents1": "숙박업소",
+            "contents2": "화장실",
+            "contents3": "관광지",
+            "contents4": "편의시설"
+        },
+        {
+            "region": "송악산",
+            "contents1": "숙박업소",
+            "contents2": "화장실",
+            "contents3": "관광지",
+            "contents4": "편의시설"
+        },
+        {
+            "region": "쇠소깍",
+            "contents1": "숙박업소",
+            "contents2": "화장실",
+            "contents3": "관광지",
+            "contents4": "편의시설"
+        },
+        {
+            "region": "성산일출봉",
+            "contents1": "숙박업소",
+            "contents2": "화장실",
+            "contents3": "관광지",
+            "contents4": "편의시설"
+        },
+        {
+            "region": "김녕 성세기 해변",
+            "contents1": "숙박업소",
+            "contents2": "화장실",
+            "contents3": "관광지",
+            "contents4": "편의시설"
+        }
+    ]
+}

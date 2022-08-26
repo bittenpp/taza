@@ -1,0 +1,399 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+}
+
+.pg1 div img {
+  width: 100%;
+  border-radius: 0 50px 0 0;
+  position: relative;
+  background-color: #f5f5f5;
+}
+.pg1 p {
+  width: 100%;
+}
+.pg1 p img {
+  position: absolute;
+  right: 14%;
+  top: 34.3%;
+  width: 490px;
+  height: 365px;
+}
+.pg1 h2 {
+  color: #ffffff;
+  position: absolute;
+  left: 14%;
+  top: 55%;
+  font-size: 55px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* sub5main2  페이지 */
+/* div{
+    display: inline-block;
+} */
+.sub5main2 {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.sub5main2 > div {
+  width: 72%;
+  margin: 0 14% 0 14%;
+}
+h3 {
+  color: #337885;
+  font-size: 48px;
+  display: inline-block;
+  /* top:0%; */
+  padding: auto;
+}
+
+.h3- .sub5_line {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.sub5FAQ_right {
+  width: 72%;
+  height: 735px;
+  margin: 0 9%;
+  /* text-align: center; */
+  position: relative;
+}
+.sub5FAQ_right .sub5FAQ_left {
+  background-color: #337885;
+  position: absolute;
+  left: -130px;
+  top: 100px;
+  padding: 50px;
+  border-radius: 40px;
+  display: inline-block;
+  width: 537px;
+}
+
+.sub5FAQ_left > div > img {
+  width: 421.62px;
+}
+
+.sub5FAQ_left > div > p {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.sub5FAQ_right .sub5FAQ_left .sub5FAQ_left_super2022 {
+  display: flex;
+  align-items: center;
+}
+.sub5FAQ_right .sub5FAQ_left .sub5FAQ_left_super2022 p {
+  color: #f8991c;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.sub5FAQ_right > .sub5FAQ_right_p {
+  /* width: 80%;
+  display: inline-block ; */
+  /* float: right; */
+  background-color: white;
+  width: 100%;
+  border-radius: 50px;
+  padding: 70px 10% 5% 20%;
+  margin: 0 0 0 30%;
+}
+
+.sub5FAQ_righ_box {
+  width: 238px;
+  height: 62px;
+  text-align: center;
+  border-radius: 100px;
+}
+.sub5FAQ_righ_box p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #f8991c;
+  padding: 13px;
+  border-radius: 20px;
+}
+
+.wnghkd {
+  background-color: #f8991c;
+  width: 142px;
+  height: 62px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.sub5FAQ2_icon {
+  display: flex;
+  align-items: center;
+}
+.sub5FAQ2_icon .sub5FAQ2_icon_flex {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin: 0 10px;
+}
+.sub5FAQ2_icon .sub5FAQ2_icon_flex img {
+  width: 30px;
+}
+
+.mtb {
+  margin: 20px 0 10px 0;
+  color: black;
+  font-size: 35px;
+  width: 100%;
+  vertical-align: auto;
+  text-align: left;
+}
+
+.sub5FAQ_right_best > p {
+  color: #9d9d9d;
+  font-size: 25px;
+  text-align: left;
+  margin: auto 0 20px 0;
+}
+
+.sub5FAQ2_icon > div > p {
+  color: #337885;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* sub5cycleclub 시작해라 */
+.sub5cycleclub {
+  width: 72%;
+  position: relative;
+}
+
+.h3- {
+  padding: 6% 0 3% 0;
+}
+
+.sub5cycleclub > div > ul {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sub5cycleclub > div > ul > li {
+  /* width: 72%; */
+  display: inline-block;
+}
+
+.sub5cycleclub_left,
+.sub5cycleclub_right {
+  border-radius: 40px;
+  width: 93%;
+  border-style: solid;
+  border-color: #337885;
+  padding: 40px;
+}
+
+.hot_popup {
+  /* display: inline; */
+  position: absolute;
+  top: 165px;
+  left: 0;
+}
+
+h4 {
+  margin: 20px 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: #434343;
+}
+
+.wnghkd {
+  background-color: #f8991c;
+  width: 142px;
+  height: 62px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.sub5cycleclub_left > p,
+.sub5cycleclub_right > p {
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+  color: #9d9d9d;
+  margin-top: 10px;
+}
+
+.sub5cycleclub > div > .sub5sycleclub_bottom {
+  display: flex;
+  align-items: center;
+  color: #337885;
+  font-size: 25px;
+  justify-content: center;
+  padding: 100px 0 100px 0;
+}
+.sub5cycleclub > div > .sub5sycleclub_bottom p {
+  padding: 0 20px;
+}
+.sub5cycleclub > div > .sub5sycleclub_bottom a img {
+  vertical-align: middle !important;
+}
+
+/* Hot 게시판 */
+.sub5main3 {
+  width: 100%;
+  background-color: #337885;
+  padding: 0 0 100px 0;
+}
+.sub5main3 .sub5main3_real {
+  /* margin: 107px 9%; */
+  width: 72%;
+  margin: 0 14%;
+}
+.sub5main3 .sub5main3_real div > h3 {
+  color: white;
+}
+
+/* .cycleclub_arrow>div>img{
+        padding: 0 0 0 50px;
+    } */
+.sub5main3 .hot1,
+.hot2 {
+  background-color: white;
+  border-radius: 40px;
+  position: relative;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  padding: 60px 40px;
+  text-align: left;
+  display: flex;
+}
+
+.sub5main3_real .contents_03 {
+  width: 100%;
+}
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot1,
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot2 {
+  display: block;
+  width: 35%;
+  margin: 0 20px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot1 > img,
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot2 > img {
+  width: 450px;
+}
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot1 .dlsrl,
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot2 .dlsrl {
+  font-size: 18px;
+}
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot1 b,
+.sub5main3_real .contents_03 .contents_zoon_03 .img_Text .hot2 b {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 28px;
+}
+
+/* sub5main4 후기 게시판 */
+.sub5main4 {
+  width: 72%;
+  margin: 0 14%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile > div > p {
+  font-size: 28px;
+  color: #337885;
+}
+
+.profile > div > p > .profile {
+  width: 500px;
+}
+
+.profile > div > span {
+  font-size: 25px;
+  color: #f8991c;
+}
+
+.sub5main4 div ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sub5main4 div ul li > div p {
+  line-height: 1.6;
+}
+.sub5main4 div ul li > div b {
+  color: #434343;
+}
+.sub5main4 div ul li > div > div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.sub5main4 div ul li > div > div > div {
+  margin-right: 20px;
+}
+.sub5main4 div ul li > div > div > div p {
+  display: inline-block;
+  color: #337885;
+}
+.sub5main4 div ul .review1 {
+  width: 40%;
+  position: relative;
+}
+.sub5main4 div ul .review1 .wnghkd {
+  position: absolute;
+  top: -10px;
+  left: 0;
+}
+.sub5main4 div ul .review1 img {
+  padding: 20px 0;
+}
+.sub5main4 div li:nth-of-type(2) {
+  width: 50%;
+}
+.sub5main4 div li:nth-of-type(2) .id {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  color: #337885;
+  padding: 0px 0;
+  font-weight: 600;
+}
+.sub5main4 div li:nth-of-type(2) b {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 35px;
+  padding: 0;
+}
+
+.sub5main4 > div > ul > li > div > div > p {
+  padding: 10px 0;
+  /* margin: 0; */
+}
+
+.img_Text {
+  position: relative;
+}/*# sourceMappingURL=sub5.css.map */

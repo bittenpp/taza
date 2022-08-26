@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.select-box {
+    display: flex;
+    width: 400px;
+    .options-container {
+        background-color: #f8991c;
+        color: black;
+        
+        width: 100%;
+        transition: all 0.4s;
+        // overflow: hidden;height:0;
+        padding: 20px;
+        .option {
+            padding: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.selected {
+    padding: 12px 24px;
+    cursor: pointer;
+    
+}
+
+.select-box .option:hover {
+    background: #414b57;
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .radio {
+    // display: none;
+}
+
+.box{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8991c;
+    >button{
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        &:hover{
+            background-color: #414b57;
+        }
+    }
+}

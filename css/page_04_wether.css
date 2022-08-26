@@ -1,0 +1,9 @@
+@import url(./common.css);
+.visual {
+  width: 100%;
+}
+.visual p {
+  color: #337885;
+  font-size: 65px;
+  font-weight: bold;
+}/*# sourceMappingURL=page_04_wether.css.map */
