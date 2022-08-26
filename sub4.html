@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub4</title>
+    <link href="./css/sub4.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <!-- <link href="./common.css" rel="stylesheet"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c05e5a7cb3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <script defer src="./js/common.js"></script>
+    
+</head>
+<!-- ================================================== -->
+<body>
+    <header></header>
+<!-- =============================================== -->
+    <main>
+        <div class="pg1">
+            <div><img src="./tazaimg/visual img.jpg"></div>
+            <p><img src="./tazaimg/visual logk.png"></p>
+            <h2><b>알림마당</b></h2>
+        </div>
+
+<!-- ==============================================  -->
+
+        <div class="pg2">
+            <h2>소식</h2>
+            <ul class="news">
+                <li>
+                    <p><img src="./tazaimg/news1.png"></p>
+                    <h2>자치구 자전거 단체 보험 안내</h2>
+                    <div>자치구 자전거 단체보험은 보험 가입 자치구에 주민등록이 되어 있는 구민(등록 외국인 포함) 이면 누구나 가입절차 없이 자동으로 보험에 가입이 가능합니다. </div>
+                    <span><b>2022.07.18</b>    <b>조회수 156회</b></span>
+                </li>
+                <li>
+                    <p><img src="./tazaimg/news2.png"></p>
+                    <h2>교통 안전 교육 하반기 일정 안내</h2>
+                    <div>응시대상 : 자전거 안전교육 이수한 서울시민 (유아~성인) , 서울시 자치구 또는 민간자전거단체 (서울시, 행안부 등록) 주최 자전거 안전교육 ( 이론 및 실습)</div>
+                    <span><b>2022.07.21</b>    <b>조회수 105회</b></span>
+                </li>
+                <li>
+                    <p><img src="./tazaimg/news3.png"></p>
+                    <h2>자전거 보험 파헤치기</h2>
+                    <div>자전거를 타다가 사고가 나면 어떻게 할까? 
+                        서울시에 사는 시민 누구든지 묻지도 따지지도 않고 자전거
+                        보험에 가입할 수 있다구요?</div>
+                    <span><b>2022.07.28</b>    <b>조회수 250회</b></span>
+                </li>
+            </ul>
+
+<!-- ======================================================== -->
+
+        <div class="pg3">
+            <h2>동영상 보기</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <iframe width="870" height="500" src="https://www.youtube.com/embed/ZfG-CIrbkzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="swiper-slide"><iframe width="870" height="500" src="https://www.youtube.com/embed/Pa0dg7T6OYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="swiper-slide"><iframe width="870" height="500" src="https://www.youtube.com/embed/j0BRZd06b9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="swiper-slide"><iframe width="870" height="500" src="https://www.youtube.com/embed/TvwxvbqViFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <button><a href="https://www.youtube.com" target="_blank">더보기</a></button>
+            
+        </div>
+        <style>
+            .pg3 button{
+                background: none;
+                position: absolute;
+                top: 86%;
+                z-index: 999;
+            }
+            .swiper{
+                display: flex;
+                width: 100%;
+                flex-shrink: 0;
+                margin: 0 auto;
+            }
+            .swiper-wrapper{
+                margin-top: 60px;
+            }
+            .swiper .swiper-slide{
+                margin-bottom: 120px;
+            }
+            .swiper .swiper-pagination{
+                margin: 0 auto;
+                text-align: center;
+                width: 10%;
+                margin-bottom: 30px;
+                position: absolute;
+                left: 46%; top: 600px;
+                z-index: 99;
+            }
+            .swiper .swiper-pagination-bullet{
+                width: 16px;
+                height: 16px;
+                opacity: 0.5;
+                background: rgb(177, 177, 177);
+                z-index: 99;
+            }
+            .swiper .swiper-pagination-bullet-active{
+                opacity: 1;
+                background: #337885;
+            }
+            .swiper-pagination .swiper-pagination-bullets .swiper-pagination-horizontal{
+            }
+        </style>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 0,
+                centeredSlides: true,
+                mousewheel: true,
+                initialSlide:1,
+                grabCursor: true,
+                loop:true,
+                pagination: { 
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+<!-- ====================================================================== -->
+
+        <div class="pg4">
+            <h2>공지사항</h2>
+            <table class="notice">
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>등록일</th>
+                        <th>조회수</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>기타</td>
+                        <td>[전체공지] 자전거 행복나눔 8월 서버점검 사전안내</td>
+                        <td>관리자</td>
+                        <td>2022-07-20</td>
+                        <td>1754</td>
+                    </tr>
+                    <tr>
+                        <td>기타</td>
+                        <td>[공지] 2022년 국토종주 자전거길 현장점검 투어단</td>
+                        <td>유지보수관리자</td>
+                        <td>2022-07-13</td>
+                        <td>4758</td>
+                    </tr>
+                    <tr>
+                        <td>기타</td>
+                        <td>[공지]2021 사진/ UCC 공모전</td>
+                        <td>관리자</td>
+                        <td>2022-06-28</td>
+                        <td>4792</td>
+                    </tr>
+                    <tr>
+                        <td>기타</td>
+                        <td>[전체공지] 자전거 행복나눔 6월 서버점검 사전안내</td>
+                        <td>관리자</td>
+                        <td>2022-06-20</td>
+                        <td>2564</td>
+                    </tr>
+                    <tr>
+                        <td>기타</td>
+                        <td>[공지] 국토종주 자전거길 현장점검 투어단 모집</td>
+                        <td>유지보수관리자</td>
+                        <td>2021-05-24</td>
+                        <td>6822</td>
+                    </tr>
+                    <tr>
+                        <td>기타</td>
+                        <td>[전체공지] 자전거 이용자 대상 만족도 조사 참여안내 </td>
+                        <td>유지보수관리자</td>
+                        <td>2022-05-24</td>
+                        <td>1754</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <div class="more">
+                <div><b>더보기</b></div>
+                <a><img src="./tazaimg/morearw.png"></a>
+            </div> -->
+            <div class="more">
+                <ul>
+                    <li>1<p>|</p></li>
+                    <li>2<p>|</p></li>
+                    <li>3</li>
+                    <li><p>|</p>4<p>|</p></li>
+                    <li>5<p>|</p></li>
+                    <li>6<p>|</p></li>
+                    <li>7<p>|</p></li>
+                    <li>8<p>|</p></li>
+                    <li>9<p>|</p></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="cover_login">
+        <div class="login_form">
+            <button class="closed_btn"><img src="./img/Page_01_index/btn_x.png"></button>
+            <h2><img src="./img/Page_01_index/login_logo.png"></h2>
+            <ul>
+                <i class="fa-solid fa-user"></i>
+                <li><input type="text" placeholder="아이디를 입력하세요." title="아이디입력"></li>
+                <i class="fa-solid fa-lock"></i>
+                <li><input type="password" placeholder="비밀번호를 입력하세요." title="비밀번호입력"></li>
+                <li><input type="submit" value="로그인"></li>        
+            </ul>
+            <div>
+            <div>
+                <a href="#">아이디찾기</a>
+                <p>|</p><a href="#">비밀번호찾기</a><p>|</p>
+                <a href="#">회원가입</a>
+            </div>
+            
+    
+            </div>
+        </div>
+    </div>
+    
+    <div class="cover_menu">
+    
+        <div class="menu">
+            <div class="TOP">
+                <P><img src="./img/Page_01_index/menu_bg.png"></P>
+                <button class="closed_btn"><img src="./img/Page_01_index/btn_x.png"></button>
+            </div>
+        
+            <ul class="link">
+                <li><a href="sub1.html">추천 관광명소</a></li>
+                <li><a href="sub2.html">지도안내</a></li>
+                <li><a href="sub3.html">날씨예보</a></li>
+                <li><a href="sub4.html">알림마당</a></li>                          
+                <li><a href="sub5.html">커뮤니티</a></li>
+        </div>
+    </div>
+    
+    
+    <div class="cover_search">
+    
+        <div class="search_form">
+            <button class="close_btn"><img src="./img/Page_01_index/btn_x.png"></button>
+            <form class="box">
+                <input type="text" placeholder="‘제주 자전거길 추천’">
+                <input type="submit" value="Search">
+            </form>
+            <div class="link">
+                <a href="sub1.html">낙동강 자전거길</a>
+                <p>|</p><a href="sub2.html">자전거 대여소 안내</a><p>|</p>
+                <a href="sub3.html">전기자전거 요금 할인 </a><p>|</p>
+                <a href="sub4.html">주변 캠핑장 </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer></footer>
+</body>
+
+</html>
